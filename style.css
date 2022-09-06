@@ -1,6 +1,21 @@
 header {
   font-family: Impact;
+  text-align: center;
+  font-size: 56px;
 }
-ol{
-  background-color: aqua;
+ol {
+  background-color: white;
+  text-align: center;
+  color: green;
+  font-size: 24px;
+}
+body {
+  background-color:  goldenrod;
+}
+.class:hover{
+  outline: gray;
+}
+p {
+  font-size: 36px;
+  font-family: Verdana;
 }
