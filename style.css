@@ -10,12 +10,18 @@ ol {
   font-size: 24px;
 }
 body {
-  background-color:  goldenrod;
+  background-color: goldenrod;
 }
-.class:hover{
+.class:hover {
   outline: gray;
 }
 p {
   font-size: 36px;
   font-family: Verdana;
+}
+img {
+  max-width: 3330px;
+  max-height: 333px;
+  justify-content: center;
+  align-items: center;
 }
