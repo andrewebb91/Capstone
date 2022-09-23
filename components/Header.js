@@ -2,7 +2,5 @@
 import html from "html-literal";
 
 export default (state) => html`
-  <header>
-    <h1>${state.header}</h1>
-  </header>
+  <header>4Lifers: All you need in one space</header>
 `;
