@@ -2,9 +2,6 @@
   "better-comments.highlightPlainText": true,
   "css.validate": false,
   "editor.accessibilitySupport": "off",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
   "editor.fontFamily": "'Inconsolata', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,

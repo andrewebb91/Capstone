@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import {Header, Nav, Main, Footer} from "./components";
 import * as store from "./store";
 import Navigo from "navigo";
