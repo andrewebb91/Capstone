@@ -25,3 +25,5 @@ img {
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 375px) and (max-width: 1080px) {
+}
