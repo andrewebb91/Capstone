@@ -41,7 +41,8 @@ export default (state) => html` <>
   <div></div>
   <p class="BA">Billing Address</p>
   <form action="https://formspree.io/f/xnqrpqve" method="POST">
-      Full Name:
+  <label>
+  Full Name:
       <input type="name here" name="name here" />
       Country
       <input type="country" name="country" />
@@ -58,6 +59,7 @@ export default (state) => html` <>
     </label>
     <!-- your other form fields go here -->
     <button type="submit">Thank you</button>
+
     </form>
 
 

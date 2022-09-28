@@ -2,8 +2,10 @@ header {
   font-family: Impact;
   text-align: center;
   font-size: 56px;
+  color: green;
+  background-color: white;
 }
-ol {
+footer {
   background-color: white;
   text-align: center;
   color: green;
@@ -26,4 +28,18 @@ img {
   align-items: center;
 }
 @media (min-width: 375px) and (max-width: 1080px) {
+}
+.HomeImages {
+  text-align: center;
+}
+p {
+  font-family: "Times New Roman";
+}
+li {
+  list-style: none;
+  text-align: center;
+  font-size: 24px;
+}
+.closeout {
+  text-align: center;
 }

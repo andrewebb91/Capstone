@@ -9,5 +9,10 @@ export default (state) => html`
       Project as well. Please take the time to explore all of our service so
       that we can provide you the best experience.
     </p>
+    <h2 class="HomeImages">Images</h2>
+      Adding slideshow of pictures of us
+
+
+    </div>
   </section>
 `;
