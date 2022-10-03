@@ -18,7 +18,7 @@ body {
   outline: gray;
 }
 p {
-  font-size: 36px;
+  font-size: 24px;
   font-family: Verdana;
 }
 img {
@@ -32,9 +32,7 @@ img {
 .HomeImages {
   text-align: center;
 }
-p {
-  font-family: "Times New Roman";
-}
+
 li {
   list-style: none;
   text-align: center;
@@ -42,4 +40,28 @@ li {
 }
 .closeout {
   text-align: center;
+}
+.PodcastImage {
+  max-width: 3330px;
+  max-height: 375px;
+  justify-content: center;
+}
+#RPH {
+  font-size: 36px;
+  font-family: Verdana;
+}
+.logo {
+  max-width: 1500px;
+}
+.nice {
+  justify-content: center;
+}
+.trailer {
+  float: right;
+}
+.t2 {
+  float: left;
+}
+.fas_fa-bars:hover {
+  outline: gray;
 }

@@ -1,6 +1,9 @@
 import html from "html-literal";
 export default (state) => html`
   <section id="home">
+    <h2 class="HomeImages">Images</h2>
+    Adding slideshow of pictures of us
+    <div></div>
     <p>
       This website is a one stop shop for all over your need for a night on the
       town. As you explore our website you will learn that you will have to a
@@ -9,10 +12,5 @@ export default (state) => html`
       Project as well. Please take the time to explore all of our service so
       that we can provide you the best experience.
     </p>
-    <h2 class="HomeImages">Images</h2>
-      Adding slideshow of pictures of us
-
-
-    </div>
   </section>
 `;
