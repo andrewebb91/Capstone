@@ -40,7 +40,7 @@ switch (view) {
     axios
       .get(
         `https://www.etsy.com/developers/your-apps=${process.env.OPEN_ESTY_API_KEY}
-      )
+      `)
 
 router
   .on({
