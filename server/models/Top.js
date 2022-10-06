@@ -18,6 +18,6 @@ const pizzaSchema = new mongoose.Schema({
   },
 });
 
-const Shirt = mongoose.model("Shirt", shirtSchema);
+const Tops = mongoose.model("Tops", shirtSchema);
 
-module.exports = Shirt;
+module.exports = Tops;
