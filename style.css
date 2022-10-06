@@ -1,3 +1,6 @@
+html {
+  margin: 5vw;
+}
 header {
   font-family: Impact;
   text-align: center;
@@ -42,8 +45,16 @@ li {
   text-align: center;
 }
 .PodcastImage {
-  max-width: 3330px;
-  max-height: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75vw;
+  align-items: center;
+  height: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 #RPH {

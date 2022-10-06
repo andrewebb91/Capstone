@@ -27,28 +27,32 @@ function afterRender(state) {
   });
 }
 
-router.hooks({
-  before: (done, params) => {
-    const view =
-      params && params.data && params.data.view
-        ? capitalize(params.data.view)
-        : "Home";
+// router.hooks({
+before: (done, params) => {
+  const view =
+    params && params.data && params.data.view
+      ? capitalize(params.data.view)
+      : "Home";
 
-// Add a switch case statement to handle multiple routes
-switch (view) {
-  case "Home":
-    axios
-      .get(
-        `https://www.etsy.com/developers/your-apps=${process.env.OPEN_ESTY_API_KEY}
-      `)
-      .then((response)=> console.log(response.data));
-        done();
-router
-  .on({
-    "/": () => render(),
-    ":view": (params) => {
-      let view = capitalize(params.data.view);
-      render(store[view]);
-    },
-  })
-  .resolve();
+  // Add a switch case statement to handle multiple routes
+  switch (view) {
+    case "Home":
+      axios
+        .get(
+          `https://www.etsy.com/developers/your-apps=${process.env.OPEN_ESTY_API_KEY}
+      `
+        )
+        .then((response) => console.log(response.data));
+      done();
+  }
+},
+  // });
+  router
+    .on({
+      "/": () => render(),
+      ":view": (params) => {
+        let view = capitalize(params.data.view);
+        render(store[view]);
+      },
+    })
+    .resolve();
