@@ -41,7 +41,8 @@ switch (view) {
       .get(
         `https://www.etsy.com/developers/your-apps=${process.env.OPEN_ESTY_API_KEY}
       `)
-
+      .then((response)=> console.log(response.data));
+        done();
 router
   .on({
     "/": () => render(),
