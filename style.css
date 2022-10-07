@@ -25,10 +25,14 @@ p {
   font-family: Verdana;
 }
 img {
-  max-width: 3330px;
-  max-height: 333px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  width: 75vw;
   align-items: center;
+  height: auto;
+  margin: auto;
+  padding-bottom: 2vh;
 }
 @media (min-width: 375px) and (max-width: 1080px) {
 }
@@ -36,6 +40,9 @@ img {
   text-align: center;
 }
 
+.divider {
+  background-color: white;
+}
 li {
   list-style: none;
   text-align: center;
@@ -51,6 +58,8 @@ li {
   width: 75vw;
   align-items: center;
   height: auto;
+  margin: auto;
+  padding-bottom: 2vh;
 }
 .container {
   display: flex;
@@ -62,17 +71,50 @@ li {
   font-family: Verdana;
 }
 .logo {
-  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75vw;
+  align-items: center;
+  height: auto;
+  margin: auto;
+  padding-bottom: 2vh;
 }
 .nice {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  width: 35vw;
+  align-items: center;
+  height: auto;
+  margin: auto;
+  padding-bottom: 2vh;
 }
 .trailer {
-  float: right;
+  width: 35vw;
+  padding-top: 2vh;
 }
 .t2 {
-  float: left;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  width: 35vw;
+  padding-bottom: 2vh;
 }
 .fas_fa-bars:hover {
   outline: gray;
+}
+.pp2 {
+  float: right;
+  width: 50vw;
+}
+.crown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35vw;
+  align-items: center;
+  height: auto;
+  margin: auto;
+  padding-bottom: 2vh;
 }
