@@ -19,7 +19,7 @@ export default (state) => html`
     <h2 class="HomeImages">Who We Are!</h2>
     <div id="slideshow"></div>
     <img class="slide" src="${jackets}" alt="slide1" />
-    <img class="mySlides w3-animate-fading" src="${dre}" style="width:100%" />
+    <img class="slide" src="${dre}" style="width:100%" />
     <img class="slide" src="${lj}" />
     </div>
     <div></div>
