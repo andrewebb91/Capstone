@@ -13,6 +13,5 @@ export default (state) => html`
     <div>Logos</div>
     <img class="nice" src="${fancy}" alt="nice" />
     <img class="crown" src="${crown}" alt="crown" />
-    <div>Custom art insert 6043</div>
   </section>
 `;

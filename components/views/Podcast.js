@@ -6,8 +6,9 @@ export default (state) => html`
       <div class="PodcastImage">
         <img src="${podcast}" alt="Perspective Podcast" />
       </div>
-      <div class="trailer">
-        <iframe
+      <div class="divider"><br /></div>
+      <div>
+        <iframe class="trailer
           width="560"
           height="315"
           src="https://www.youtube.com/embed/NPqYDzHCOgA"
@@ -16,16 +17,17 @@ export default (state) => html`
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-      </div>
-      <div></div>
-      <p>
+
+
+      <p class="pp2">
         A fun, innovative way of looking at today’s societal norms through
         generational lenses. A tongue in cheek, no holds bar discussion between
         various viewpoints that may agree or disagree, but often realize the
         answer is somewhere in between.
       </p>
-      <div class="t2">
-        <iframe
+      </div>
+      <div>
+        <iframe class="t2
           width="560"
           height="315"
           src="https://www.youtube.com/embed/0DsmdjaoyHg"
@@ -34,7 +36,7 @@ export default (state) => html`
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-      </div>
+
       <p>
         #theperspectivepodcast#theperspectivepodcast #podcast #whatdoyouthink
         #watchuswork #youngprofessionals #everydaytalk #blackinmedia #dailygrind
@@ -42,6 +44,7 @@ export default (state) => html`
         #blackpodcast #blkpodcastmatters #listen #supportuswesupportyou
         #dopepodcast #marrythathoe #boogersandbooties
       </p>
+      </div>
     </div>
   </section>
 `;

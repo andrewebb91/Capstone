@@ -26,6 +26,7 @@ function afterRender(state) {
     document.querySelector("nav > ul").classList.toggle("hidden--mobile");
   });
 }
+//fading slideshow
 
 // router.hooks({
 before: (done, params) => {
