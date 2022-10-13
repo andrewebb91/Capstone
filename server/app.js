@@ -3,6 +3,7 @@ const {application} = require("express");
 const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
+const tops = require("./routers/tops");
 
 dotenv.config();
 
@@ -52,6 +53,8 @@ app
   .post((request, response) => {
     response.json({requestBody: request.body});
   });
+
+app.use("/tops", tops);
 
 const PORT = process.env.API_PORT || 4040;
 // Tell the Express app to start listening
