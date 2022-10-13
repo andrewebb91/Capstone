@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const shirtSchema = new mongoose.Schema({
+const serviceSchema = new mongoose.Schema({
   customer: {
     type: String,
     required: true,
@@ -19,6 +19,6 @@ const shirtSchema = new mongoose.Schema({
   },
 });
 
-const Top = mongoose.model("Top", shirtSchema);
+const Service = mongoose.model("Service", serviceSchema);
 
-module.exports = Top;
+module.exports = Service;

@@ -4,6 +4,7 @@ const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const tops = require("./routers/tops");
+const services = require("./routers/services");
 
 dotenv.config();
 
@@ -55,6 +56,7 @@ app
   });
 
 app.use("/tops", tops);
+app.use("/services", services);
 
 const PORT = process.env.API_PORT || 4040;
 // Tell the Express app to start listening
