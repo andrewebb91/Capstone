@@ -16,11 +16,19 @@ import look from "../../assets/IMG_1593.jpeg";
 import wedding from "../../assets/IMG_4187.jpeg";
 export default (state) => html`
   <section id="home">
-    <h2 class="HomeImages">Who We Are!</h2>
-    <div id="slideshow"></div>
-    <img class="slide" src="${jackets}" alt="slide1" />
-    <img class="slide" src="${dre}" style="width:100%" />
-    <img class="slide" src="${lj}" />
+    <h2 id="HomeImages">Who We Are!</h2>
+    <div class="slider-frame">
+      <div class="slide-images">
+        <div class="img-container">
+          <img class="slide" src="${jackets}" />
+        </div>
+        <div class="img-container">
+          <img class="dre" src="${dre}" />
+        </div>
+        <div class="img-container">
+          <img class="slide" src="${lj}" />
+        </div>
+      </div>
     </div>
     <div></div>
     <p>
