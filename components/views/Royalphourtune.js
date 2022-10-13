@@ -10,7 +10,9 @@ export default (state) => html`
       Bonded by a Brotherhood Royal PHOURtune is a space for creativity and self
       expression while understands just how PHOURtunate you are.
     </p>
-    <div>Logos</div>
+    <div class="logos">
+      <h3>Logos</h3>
+    </div>
     <img class="nice" src="${fancy}" alt="nice" />
     <img class="crown" src="${crown}" alt="crown" />
   </section>

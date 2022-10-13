@@ -17,7 +17,6 @@ import wedding from "../../assets/IMG_4187.jpeg";
 import background from "../../assets/6D30D9F9-7D78-446C-A38D-CBB747494404.jpg";
 export default (state) => html`
   <section id="home">
-    <img class="background" src=${background} />
     <h2 id="HomeImages">Who We Are!</h2>
     <div class="slider-frame">
       <div class="slide-images">

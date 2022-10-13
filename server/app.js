@@ -57,7 +57,7 @@ app
 app.use("/tops", tops);
 app.use("/services", services);
 
-const PORT = process.env.API_PORT || 4040;
+const PORT = process.env.PORT || 4040;
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
