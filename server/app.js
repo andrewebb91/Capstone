@@ -1,5 +1,4 @@
 // 'Import' the Express module instead of http
-const {application} = require("express");
 const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
@@ -7,10 +6,10 @@ const tops = require("./routers/tops");
 const services = require("./routers/services");
 
 dotenv.config();
-
+const app = express();
 mongoose.connect(process.env.MONGODB);
 // Initialize the Express application
-const app = express();
+
 const db = mongoose.connection;
 
 db.on("error", console.error.bind(console, "Connection Error:"));
