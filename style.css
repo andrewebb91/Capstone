@@ -49,7 +49,9 @@ img {
   margin: auto;
   padding-bottom: 2vh;
 }
-
+.IG {
+  text-align: center;
+}
 .shoes {
   float: right;
   width: auto;

@@ -19,5 +19,11 @@ export default (state) => html`
   </section>
   <div>
     <img class="pricelist" src="${priceList}" />
+
+    <p class="IG">
+      <a href="https://www.instagram.com/180solez"
+        >If interested in these services follow us on IG!!!</a
+      >
+    </p>
   </div>
 `;
