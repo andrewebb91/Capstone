@@ -18,7 +18,7 @@ export default (state) => html`
     <img class="nice" src="${fancy}" alt="nice" />
     <img class="crown" src="${crown}" alt="crown" />
 
-    <div>
+    <div id="formbox">
       <section id="form">
         <form action="https://formspree.io/f/xnqrpqve"  method="POST" action="">
           <h3>Order Here</h3>
@@ -31,7 +31,6 @@ export default (state) => html`
               placeholder="Name here"
               required
             />
-          </div>
           </div>
             <label for="size">Size:(type out the size)
             <input
@@ -70,6 +69,7 @@ export default (state) => html`
         <div></div>
         <input type="submit" name="submit" value="Submit Order" />
         </form>
+        </div>
       </section>
     </div>
     <div></div>
