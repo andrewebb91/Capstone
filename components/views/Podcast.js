@@ -2,7 +2,6 @@ import html from "html-literal";
 import podcast from "../../assets/IMG_2099.jpg";
 export default (state) => html`
   <section>
-    <div class="container">
       <div class="PodcastImage">
         <img src="${podcast}" alt="Perspective Podcast" />
       </div>
@@ -45,6 +44,18 @@ export default (state) => html`
         #dopepodcast #marrythathoe #boogersandbooties
       </p>
       </div>
+
+      <h3>Take a Listen!!!</h3>
+      <div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/49vY7j3wjfRF4QPZ74fDnI?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+      <div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/70zIr7OjOkZnusfxVaTtxY?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+      <div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7nZyrD5jYGGHA8AFsfLm0j?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+      <div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3MaTFVlVbE50wYnN2PBWY0?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+      <div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3SfsmOdHtovIMNQRI5ibqf?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+
+      <h1><a href="https://open.spotify.com/show/2BwsWOcIHmK592iWviWM98?si=_TAXCmbdS9aSLh1u9Hu-Uw&nd=1">WANT MORE CONTENT CLICK HERE</a> </h1>
+
+
+
     </div>
   </section>
 `;

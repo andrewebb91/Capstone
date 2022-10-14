@@ -1,10 +1,10 @@
 const {Router} = require("express");
-const Service = require("../models/Service");
+const Top = require("../models/Top");
 const router = Router();
 
 // Create record in MongoDB Atlas using Mongoose.js ORM
 router.post("/", (request, response) => {
-  const newService = new Service(request.body);
+  const newTops = new Top(request.body);
   newTops.save((error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
@@ -12,7 +12,7 @@ router.post("/", (request, response) => {
 });
 // Get (read) all records from the collection
 router.get("/", (request, response) => {
-  Service.find({}, (error, record) => {
+  Top.find({}, (error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });
@@ -20,14 +20,14 @@ router.get("/", (request, response) => {
 
 // Get a single record by ID using a query parameter
 router.get("/:id", (request, response) => {
-  Service.findById(request.params.id, (error, record) => {
+  Top.findById(request.params.id, (error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });
 });
 
 router.delete("/:id", (request, response) => {
-  Service.findByIdAndRemove(request.params.id, {}, (error, record) => {
+  Top.findByIdAndRemove(request.params.id, {}, (error, record) => {
     if (error) return response.status(500).json(error);
     return response.json(record);
   });

@@ -10,12 +10,10 @@ export default (state) => html`
     <p>
       Royal PHOURtune is a not only a clothing line but it is way of life.
       Bonded by a Brotherhood Royal PHOURtune is a space for creativity and self
-      expression while understands just how PHOURtunate you are.
+      expression while understands just how PHOURtunate you are. He specialize
+      in Tee shirts and will soon make our way into all areas of clothing.
     </p>
-    <img class="clean" src="${wedding}"/>
-    <div class="logos">
-      <h3>Logos</h3>
-    </div>
+    <div>Logos</div>
     <img class="nice" src="${fancy}" alt="nice" />
     <img class="crown" src="${crown}" alt="crown" />
 

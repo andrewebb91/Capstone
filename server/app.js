@@ -1,5 +1,4 @@
 // 'Import' the Express module instead of http
-const {application} = require("express");
 const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
@@ -7,10 +6,10 @@ const tops = require("./routers/tops");
 const services = require("./routers/services");
 
 dotenv.config();
-
+const app = express();
 mongoose.connect(process.env.MONGODB);
 // Initialize the Express application
-const app = express();
+
 const db = mongoose.connection;
 
 db.on("error", console.error.bind(console, "Connection Error:"));
@@ -58,7 +57,7 @@ app
 app.use("/tops", tops);
 app.use("/services", services);
 
-const PORT = process.env.API_PORT || 4040;
+const PORT = process.env.PORT || 4040;
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
