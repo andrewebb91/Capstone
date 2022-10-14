@@ -18,16 +18,12 @@ footer {
 body {
   background-color: goldenrod;
 }
-.hidden--mobile {
-  color: whitesmoke;
-  font-family: times;
-}
 .class:hover {
   outline: gray;
 }
 p {
   font-size: 24px;
-  font-family: Impact;
+  font-family: Verdana;
 }
 img {
   display: flex;
@@ -39,45 +35,13 @@ img {
   margin: auto;
   padding-bottom: 2vh;
 }
-.solez {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 75vw;
-  height: 75vh;
-  align-items: center;
-  margin: auto;
-  padding-bottom: 2vh;
-}
-.IG {
-  text-align: center;
-}
-.shoes {
-  float: right;
-  width: auto;
-  height: 75vh;
-}
-.pricelist {
-}
-.shoesp {
-  text-align: left;
-  display: flex;
-  flex-direction: row;
-  font-size: 45px;
-}
 @media (min-width: 375px) and (max-width: 1080px) {
 }
 #HomeImages {
   text-align: center;
   font-size: 36px;
 }
-h1 {
-  text-align: center;
-}
-h3 {
-  text-align: center;
-  font-size: 48px;
-}
+
 .divider {
   background-color: white;
 }
@@ -156,11 +120,6 @@ li {
   margin: auto;
   padding-bottom: 2vh;
 }
-.slide-frame {
-  overflow: hidden;
-  width: 75vw;
-  height: auto;
-}
 
 /*--------Slide Animation-----*/
 
@@ -201,9 +160,6 @@ li {
 }
 
 .slide-image {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: 3600px;
   height: 800px;
   margin: 0 0 0 -2400px;
@@ -221,25 +177,11 @@ li {
   position: relative;
 }
 
-.slider-frame {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.slide {
   height: 75vh;
   width: 75vw;
-  align-items: center;
-  height: auto;
-  margin: auto;
-  padding-bottom: 2vh;
 }
 .dre {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 75vh;
-  width: 75vw;
-  align-items: center;
-  height: auto;
-  margin: auto;
-  padding-bottom: 2vh;
+  height: 67vh;
+  width: ;
 }
