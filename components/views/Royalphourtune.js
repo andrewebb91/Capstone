@@ -3,6 +3,7 @@ import logo from "../../assets/IMG_0641.jpg";
 import fancy from "../../assets/IMG_0642.jpg";
 import crown from "../../assets/IMG_0643.jpg";
 import wedding from "../../assets/IMG_4187.jpeg";
+
 export default (state) => html`
   <section id="RPH">
     <div><img class="logo" src="${logo}" alt="logo" /></div>
@@ -42,7 +43,8 @@ export default (state) => html`
               />
             <div>
             </div>
-            <label for="design">Design:</label>
+            Design:
+            <label for="design">custom</label>
         <input
           type="checkbox"
           id="id_of_checkbox1"
