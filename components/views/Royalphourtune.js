@@ -75,5 +75,18 @@ export default (state) => html`
       </section>
     </div>
     <div></div>
+    <table id="pizzas">
+    <tr>
+      <th>Size</th>
+      <th>Design</th>
+    </tr>
+    ${state.tops
+      .map((tops) => {
+        return `<tr><td>${top.size}</td><td>${top.designjoin(" & ")}</td><td>${
+          tops.customer
+        }</td></tr>`;
+      })
+      .join("")}
+  </table>
   </section>
 `;
