@@ -37,10 +37,10 @@ before: (done, params) => {
 
   // Add a switch case statement to handle multiple routes
   switch (view) {
-    case "Home":
+    case "Royalphourtune":
       axios
         .get(
-          `https://www.etsy.com/developers/your-apps=${process.env.DUMMY_API}
+          `${process.env.LIFER_API}
       `
         )
         .then((response) => console.log(response.data));
