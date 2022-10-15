@@ -25,6 +25,28 @@ function afterRender(state) {
   document.querySelector(".fa-bars").addEventListener("click", () => {
     document.querySelector("nav > ul").classList.toggle("hidden--mobile");
   });
+  if (state.view === "Royalphourtune") {
+    document.querySelector("form").addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      const inputOrder = event.target.elements;
+      console.log("orderReceived", inputOrder);
+
+      const requestData = {
+        customer: inputOrder.customer.value,
+        size: inputOrder.size.value,
+        design: inputOrder.design.value,
+      };
+      console.log(requestData, "requestData");
+
+      axios
+        .post(`${process.env.LIFER_API}/tops`, requestData)
+        .then(console.log("I posted"))
+        .catch((error) => {
+          console.log("error", error);
+        });
+    });
+  }
 }
 //fading slideshow
 
@@ -40,10 +62,12 @@ before: (done, params) => {
     case "Royalphourtune":
       axios
         .get(
-          `${process.env.LIFER_API}
+          `${process.env.LIFER_API}/tops
       `
         )
-        .then((response) => console.log(response.data));
+        .then((response) => {
+          store.Royalphourtune.tableData = response.data;
+        });
       done();
   }
 },
