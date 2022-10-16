@@ -44,7 +44,7 @@ export default (state) => html`
             Design:
             <label for="design">custom</label>
         <input
-          type="checkbox"
+          type="radio"
           id="id_of_checkbox1"
           class="items1"
           name="design"
@@ -52,7 +52,7 @@ export default (state) => html`
         />
         <label for="top1">logo1</label>
         <input
-          type="checkbox"
+          type="radio"
           id="id_of_checkbox2"
           class="items1"
           name="design"
@@ -60,7 +60,7 @@ export default (state) => html`
         />
         <label for="top2">logo2</label>
         <input
-          type="checkbox"
+          type="radio"
           id="id_of_checkbox3"
           class="items1"
           name="design"
