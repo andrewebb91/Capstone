@@ -13,7 +13,11 @@ export default (state) => html`
       We decided to step into the shoe game by providing restoration and
       cleaning services. Take a look at our service and let us clean up your
       shoes for you!
+
+      <img class="shoes" src='${shoes}'/>
     </p>
   </section>
-  <div>//insert 180 solez// and services//</div>
+  <div></div>
+  <h3>Price List</h3>
+      <img class="pricelist" src='${priceList}'/>
 `;

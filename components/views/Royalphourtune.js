@@ -4,7 +4,7 @@ import fancy from "../../assets/IMG_0642.jpg";
 import crown from "../../assets/IMG_0643.jpg";
 import wedding from "../../assets/IMG_4187.jpeg";
 
-export default (state) => html`
+export default (st) => html`
   <section id="RPH">
     <div><img class="logo" src="${logo}" alt="logo" /></div>
     <p>
@@ -73,6 +73,18 @@ export default (state) => html`
       </section>
     </div>
     <div></div>
+    <table id="shirts">
+    <tr>
+      <th>Size</th>
+      <th>Design</th>
+
+    </tr>
+    ${st.tableData
+      .map((top) => {
+        return `<tr><td>${top.size}</td><td>${top.design}</td><td>${top.customer}</td></tr>`;
+      })
+      .join("")}
+  </table>
 
 
   </section>

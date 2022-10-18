@@ -50,34 +50,30 @@ function afterRender(state) {
 }
 //fading slideshow
 
-// router.hooks({
-before: (done, params) => {
-  const view =
-    params && params.data && params.data.view
-      ? capitalize(params.data.view)
-      : "Home";
+router.hooks({
+  before: (done, params) => {
+    const view =
+      params && params.data && params.data.view
+        ? capitalize(params.data.view)
+        : "Home";
 
-  // Add a switch case statement to handle multiple routes
-  switch (view) {
-    case "Royalphourtune":
-      axios
-        .get(
-          `${process.env.LIFER_API}/tops
-      `
-        )
-        .then((response) => {
+    // Add a switch case statement to handle multiple routes
+    switch (view) {
+      case "Royalphourtune":
+        axios.get(`${process.env.LIFER_API}/tops`).then((response) => {
           store.Royalphourtune.tableData = response.data;
+          done();
         });
-      done();
-  }
-},
-  // });
-  router
-    .on({
-      "/": () => render(),
-      ":view": (params) => {
-        let view = capitalize(params.data.view);
-        render(store[view]);
-      },
-    })
-    .resolve();
+    }
+  },
+});
+
+router
+  .on({
+    "/": () => render(),
+    ":view": (params) => {
+      let view = capitalize(params.data.view);
+      render(store[view]);
+    },
+  })
+  .resolve();
