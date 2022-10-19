@@ -64,6 +64,9 @@ router.hooks({
           store.Royalphourtune.tableData = response.data;
           done();
         });
+        break;
+      default:
+        done();
     }
   },
 });

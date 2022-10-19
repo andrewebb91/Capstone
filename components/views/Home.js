@@ -17,8 +17,8 @@ import wedding from "../../assets/IMG_4187.jpeg";
 import background from "../../assets/6D30D9F9-7D78-446C-A38D-CBB747494404.jpg";
 export default (state) => html`
   <section id="home">
-    <h2 id="HomeImages">Who We Are!</h2>
-    <div class="slider-frame">
+    <h2 id="Hometitle">Who We Are!</h2>
+
       <div class="slide-images">
         <div class="img-container">
           <img class="slide" src="${jackets}" />
@@ -28,10 +28,29 @@ export default (state) => html`
         </div>
         <div class="img-container">
           <img class="slide" src="${lj}" />
+        </div class="img-container">
+        <img src="${ron}"/>
+      </div>
+        <div class="img-container">
+          <img src="${smile}"/>
         </div>
+        <div class="img-container">
+          <img src="${stan}"/>
+        </div>
+        <div class="img-container">
+          <img src="${wedding}"/>
+        </div>
+        <div class="img-container">
+          <img src="${zo}"/>
+        </div>
+      <div class="img-container">
+        <img src="${paddles}" />
+      </div>
+
       </div>
     </div>
     <div></div>
+
     <p>
       This website is a one stop shop for all over your need for a night on the
       town. As you explore our website you will learn that you will be able to

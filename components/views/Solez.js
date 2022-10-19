@@ -5,10 +5,11 @@ import shoes from "../../assets/277814312_10217675942288699_6258957594788902904_
 export default (state) => html`
   <section>
   <div class="container">
-      <div class="180Solez">
+      <div class="black">
         <img src="${black}" alt="Perspective Podcast" />
       </div>
-    <p>
+      <div class="divider"><br /></div>
+    <p class="sole">
       Understanding we live in a fast pace world and it is only getting faster.
       We decided to step into the shoe game by providing restoration and
       cleaning services. Take a look at our service and let us clean up your
@@ -20,4 +21,6 @@ export default (state) => html`
   <div></div>
   <h3>Price List</h3>
       <img class="pricelist" src='${priceList}'/>
+
+  <h1><a href="https://www.instagram.com/180solez"> For More Information Follow us on Instagram!</h1>
 `;

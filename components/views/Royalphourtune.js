@@ -7,13 +7,14 @@ import wedding from "../../assets/IMG_4187.jpeg";
 export default (st) => html`
   <section id="RPH">
     <div><img class="logo" src="${logo}" alt="logo" /></div>
+    <div class="divider"><br /></div>
     <p>
       Royal PHOURtune is a not only a clothing line but it is way of life.
       Bonded by a Brotherhood Royal PHOURtune is a space for creativity and self
       expression while understands just how PHOURtunate you are. He specialize
       in Tee shirts and will soon make our way into all areas of clothing.
     </p>
-    <div>Logos</div>
+    <div id="logos">Logos</div>
     <img class="nice" src="${fancy}" alt="nice" />
     <img class="crown" src="${crown}" alt="crown" />
 
@@ -75,15 +76,18 @@ export default (st) => html`
     <div></div>
     <table id="shirts">
     <tr>
-      <th>Size</th>
-      <th>Design</th>
+      <th class="tablefont">Size</th>
+      <th class="tablefont">Design</th>
+      <th class="tablefont">Customer</th>
 
     </tr>
+    <div id="data">
     ${st.tableData
       .map((top) => {
         return `<tr><td>${top.size}</td><td>${top.design}</td><td>${top.customer}</td></tr>`;
       })
       .join("")}
+      </div>
   </table>
 
 

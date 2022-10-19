@@ -22,9 +22,22 @@ body {
   outline: gray;
 }
 p {
-  font-size: 24px;
-  font-family: Verdana;
+  text-align: center;
+  font-style: italic;
+  font-family: fantasy;
 }
+
+.slider-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75vw;
+  align-items: center;
+  height: auto;
+  margin: auto;
+  padding-bottom: 2vh;
+}
+
 img {
   display: flex;
   flex-direction: column;
@@ -37,11 +50,35 @@ img {
 }
 @media (min-width: 375px) and (max-width: 1080px) {
 }
-#HomeImages {
+#Hometitle {
   text-align: center;
+  font-size: 36px;
+  font-family: Impact;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  text-align: center;
+  font-style: italic;
+  font-family: Impact;
+  font-size: 36px;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  text-align: center;
+  font-style: italic;
+  font-family: Impact;
   font-size: 36px;
 }
 
+#formbox {
+  display: flexbox;
+  text-align: center;
+}
 .divider {
   background-color: white;
 }
@@ -54,6 +91,16 @@ li {
   text-align: center;
 }
 .PodcastImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75vw;
+  align-items: center;
+  height: auto;
+  margin: auto;
+  padding-bottom: 2vh;
+}
+.black {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,6 +128,11 @@ li {
   height: auto;
   margin: auto;
   padding-bottom: 2vh;
+}
+#logos {
+  text-align: center;
+  font-style: italic;
+  font-family: Impact;
 }
 .nice {
   display: flex;
@@ -121,6 +173,16 @@ li {
   padding-bottom: 2vh;
 }
 
+.sole {
+  display: flex;
+  font-size: 26px;
+  font-family: fantasy;
+}
+.shoes {
+  float: right;
+  width: 35vw;
+  height: auto;
+}
 /*--------Slide Animation-----*/
 
 @keyframes slide {
@@ -171,16 +233,18 @@ li {
   animation-play-state: running;
 }
 
-.img-container {
-  height: auto;
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 75vw;
-  position: relative;
+  align-items: center;
+  height: auto;
+  margin: auto;
+  padding-bottom: 2vh;
 }
 
-.slide {
-  height: 75vh;
-  width: 75vw;
-}
-.dre {
-  height: 67vh;
+#data {
+  font-size: 24px;
+  font-family: Impact;
 }
