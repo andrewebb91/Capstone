@@ -52,9 +52,7 @@ export default (state) => html`
     <div></div>
 
     <p>
-      This website is a one stop shop for all over your need for a night on the
-      town. As you explore our website you will learn that you will be able to
-      join the team buy purchasing a shirt from the ROYAL PHOURtune band, a Shoe
+      Your on stop shop to get what you need for a night on a town. Join the team buy purchasing a shirt from the ROYAL PHOURtune band, a Shoe
       Cleaning service 180 SOLEZ, and a chance to listen and explore our
       partnering Podcast The Perspective Project as well. Please take the time
       to explore all of our services so that we can provide you the best
