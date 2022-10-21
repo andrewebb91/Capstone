@@ -49,6 +49,22 @@ function afterRender(state) {
   }
 }
 //fading slideshow
+const images = ["../../assets/IMG_0433.jpg", "../../assets/IMG_0662.jpg"];
+
+const carousel = document.querySelector(".carousel");
+
+const interval = setInterval(function () {
+  startCarousel();
+}, 3000);
+let index = 1;
+
+startslides = () => {
+  carousel.style.backgroundImage = `$(images[index++])`;
+  carousel.classList.remove("fade");
+  void carousel.offsetWidth;
+  carousel.classList.add("fade");
+  if (index > images.length - 1) index = 0;
+};
 
 router.hooks({
   before: (done, params) => {

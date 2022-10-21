@@ -19,12 +19,12 @@ export default (state) => html`
   <section id="home">
     <h2 id="Hometitle">Who We Are!</h2>
 
-      <div class="slide-images">
+      <div class="carousel">
         <div class="img-container">
           <img class="slide" src="${jackets}" />
         </div>
         <div class="img-container">
-          <img class="dre" src="${dre}" />
+          <img class="slide" src="${dre}" />
         </div>
         <div class="img-container">
           <img class="slide" src="${lj}" />
