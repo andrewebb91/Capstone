@@ -32,4 +32,4 @@ _Here are just a few technologies used in creating and hosting this application.
 
 These applications helped shaped my coding career and really look forward to continue on this path to become a coder and UX/UI designer one day.
 
-_This is only the beginning as I plan to keep improving learning different languages and technologies in this world of computers._
+**This is only the beginning as I plan to keep improving learning different languages and technologies in this world of computers.**
