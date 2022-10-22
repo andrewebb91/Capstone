@@ -1,4 +1,4 @@
-# 4Lifers:All you in one Spot
+# 4Lifers: All you in one Spot
 
 #### SavvyCoders August 2022 Capstone
 
