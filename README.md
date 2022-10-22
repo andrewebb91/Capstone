@@ -1,8 +1,10 @@
 # 4Lifers:All you in one Spot
 
-### SavvyCoders August 2022 Capstone
+#### SavvyCoders August 2022 Capstone
 
 ## About Me
+
+![Andre' Webb](assets/F1BFE0D9-F7E8-4241-9449-8DAFFC288593_1_105_c.jpeg)
 
 A multifaceted professional with a higher education background and experience ranging from recruiting, supervision, and project management. I have extensive experience in budget management, emotional intelligence, training/development, and program coordination.
 
@@ -16,9 +18,9 @@ It was not until recently when I went to a networking event and learned that it 
 
 During my time at Savvy Coders I have had the opportunity to build a prototype single page web application as a final project for the bootcamp and certification. My web application is geared towards a one stop shop for fashion for young men and shoe cleaning services.
 
-This web application is a combination of other ventures and hobbies I do in my spare time. As the user they will be able to mae tshirt purchases, request a shoe cleaning service (future venture), and listen to my very one Podcast that was created by me as well as co-hosted.
+This web application is a combination of other ventures and hobbies I do in my spare time. As the user they will be able to make tshirt purchases, request a shoe cleaning service (future venture), and listen to my very one Podcast that was created by me as well as co-hosted.
 
-*Italic*Here are just a few technologies used in creating and hosting this application._Italic_
+_Here are just a few technologies used in creating and hosting this application._
 
 1. Javascript
 2. Html
@@ -30,4 +32,4 @@ This web application is a combination of other ventures and hobbies I do in my s
 
 These applications helped shaped my coding career and really look forward to continue on this path to become a coder and UX/UI designer one day.
 
-_Bold_ This is only the beginning as I plan to keep improving learning different languages and technologies in this world of computers.
+_This is only the beginning as I plan to keep improving learning different languages and technologies in this world of computers._
