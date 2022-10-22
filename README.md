@@ -29,6 +29,7 @@ _Here are just a few technologies used in creating and hosting this application.
 5. Heroku
 6. MongoDB
 7. Formsfree.com
+8. JustinMind
 
 These applications helped shaped my coding career and really look forward to continue on this path to become a coder and UX/UI designer one day.
 
