@@ -16,8 +16,24 @@ function render(state = store.Home) {
   ${Main(state)}
   ${Footer()}
   `;
+
   afterRender(state);
   router.updatePageLinks();
+}
+
+function changeImg() {
+  store.Home.currentSlide = store.Home.slides[store.Home.index];
+
+  const imgSrc = document.getElementById("slideImage");
+  imgSrc.src = store.Home.currentSlide;
+
+  if (store.Home.index < store.Home.slides.length - 1) {
+    store.Home.index++;
+  } else {
+    store.Home.index = 0;
+  }
+
+  setTimeout(changeImg, store.Home.transition);
 }
 
 function afterRender(state) {
@@ -47,8 +63,28 @@ function afterRender(state) {
         });
     });
   }
+  if (state.view === "Home") {
+    console.log("fix me");
+    changeImg();
+  }
 }
 //fading slideshow
+// const images = ["../../assets/IMG_0433.jpg", "../../assets/IMG_0662.jpg"];
+
+// const carousel = document.querySelector(".carousel");
+
+// const interval = setInterval(function () {
+//   startCarousel();
+// }, 3000);
+// let index = 1;
+
+// startslides = () => {
+//   carousel.style.backgroundImage = `$(images[index++])`;
+//   carousel.classList.remove("fade");
+//   void carousel.offsetWidth;
+//   carousel.classList.add("fade");
+//   if (index > images.length - 1) index = 0;
+// };
 
 router.hooks({
   before: (done, params) => {

@@ -18,24 +18,21 @@ footer {
 body {
   background-color: goldenrod;
 }
-.class:hover {
+nav > ul > li:hover {
   outline: gray;
+}
+
+nav > ul a {
+  font-family: fantasy;
+  color: black;
+}
+nav > ul a:link,
+a:visited {
 }
 p {
   text-align: center;
   font-style: italic;
   font-family: fantasy;
-}
-
-.slider-frame {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 75vw;
-  align-items: center;
-  height: auto;
-  margin: auto;
-  padding-bottom: 2vh;
 }
 
 img {
@@ -55,6 +52,8 @@ img {
   font-size: 36px;
   font-family: Impact;
   font-style: italic;
+}
+.slideImage {
 }
 
 h1 {
@@ -77,6 +76,7 @@ h3 {
 
 #formbox {
   display: flexbox;
+
   text-align: center;
 }
 .divider {
@@ -155,7 +155,7 @@ li {
   width: 35vw;
   padding-bottom: 2vh;
 }
-.fas_fa-bars:hover {
+nav > .fas_fa-bars:hover {
   outline: gray;
 }
 .pp2 {
@@ -185,54 +185,28 @@ li {
 }
 /*--------Slide Animation-----*/
 
-@keyframes slide {
-  0% {
-    left: 0px;
+.carousel {
+  -webkit-animation: 1.5s fade;
+  animation: 1.5s fade;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
   }
-  10% {
-    left: 0px;
-  }
-  20% {
-    left: 1200px;
-  }
-  30% {
-    left: 1200px;
-  }
-  40% {
-    left: 2400px;
-  }
-  50% {
-    left: 2400px;
-  }
-  60% {
-    left: 1200px;
-  }
-  70% {
-    left: 1200px;
-  }
-  80% {
-    left: 0px;
-  }
-  90% {
-    left: 0px;
-  }
-  100% {
-    left: 0px;
+  to {
+    opacity: 1;
   }
 }
 
-.slide-image {
-  width: 3600px;
-  height: 800px;
-  margin: 0 0 0 -2400px;
-  position: relative;
-  animation: slide_animation;
-  animation-duration: 33s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-play-state: running;
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
-
 .slide {
   display: flex;
   flex-direction: column;
@@ -244,7 +218,37 @@ li {
   padding-bottom: 2vh;
 }
 
-#data {
+#shirts {
   font-size: 24px;
   font-family: Impact;
+  overflow-y: scroll;
+  max-height: 30vh;
+  max-width: 75vw;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#table {
+  width: 85vw;
+}
+th,
+td {
+  border-bottom: 2px solid green;
+}
+
+input {
+  width: auto;
+  padding-left: 2px;
+}
+.tableheader {
+  position: sticky;
+  top: 0;
+  color: whitesmoke;
+  -webkit-text-stroke: 2px black;
+}
+#form {
+  font-family: fantasy;
 }

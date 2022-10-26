@@ -1,29 +1,37 @@
-# Savvy Coders Project Boilerplate Starter Kit
+# 4Lifers: All you in one Spot
 
-## Overview
+#### SavvyCoders August 2022 Capstone
 
-This template repository contains several opinionated, 'starter' files and settings to help Savvy Coder students focus more time and energy on learning how to code and/or craft 'business logic' for projects and less time on configurations.
+## About Me
 
-In addition to a '.gitignore' and some VS Code specific extensions and settings, it includes the 'recommended' settings for:
+![Andre' Webb](assets/F1BFE0D9-F7E8-4241-9449-8DAFFC288593_1_105_c.jpeg)
 
-1. [ESLint](eslint.org)
-2. [Stylelint](stylelint.io)
-3. [Prettier](prettier.io)
+A multifaceted professional with a higher education background and experience ranging from recruiting, supervision, and project management. I have extensive experience in budget management, emotional intelligence, training/development, and program coordination.
 
-## Get Started
+I’m currently transitioning into the #tech world by way of Full Stack Development learning how to code in HTML, .CSS, and JavaScript. I've always had my hands in different pots working in Higher Education and Facilities Management but the drive and passion for technology never left.
 
-**First and foremost,** make sure that your local machine is set up with all of the 'dev environment tooling' as per the instructions in the curriculum.
+As a little boy I can remember getting my first video game (Madden of course) and seeing how the graphics of the video games where evolving I knew I had to be a part of this experience. In undergraduate and graduate school I always found myself around a computer lab or talking to IT because I was messing with computer and trying different things.
 
-Well, after establishing your directory structure on your local machine, (e.g. '~/Code/SavvyCoders'), clone the Savvy Starter Repo - essentially, there should be a button that says **Use this template.**
+It was not until recently when I went to a networking event and learned that it is not too late to change my career and follow my passion.
 
-> [Read more about using templates on GitHub here...](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
+### Capstone
 
-Once this repo has been created on your GitHub, you can click on the button to 'clone' it as usual.
+During my time at Savvy Coders I have had the opportunity to build a prototype single page web application as a final project for the bootcamp and certification. My web application is geared towards a one stop shop for fashion for young men and shoe cleaning services.
 
-Once it's `clone`d to your local machine, `cd` into the directory and **be sure to do:** `npm i` to get all of the dependencies installed. If you see any _errors_ (warnings are OK) on Windows, you may have to do `npm install`.
+This web application is a combination of other ventures and hobbies I do in my spare time. As the user they will be able to make tshirt purchases, request a shoe cleaning service (future venture), and listen to my very one Podcast that was created by me as well as co-hosted.
 
-Now, enter `code .` to open this project in VS Code, and look for a prompt to 'install some extensions' once inside VS Code (in the bottom `right` of your screen). You should install these.
+_Here are just a few technologies used in creating and hosting this application._
 
-In your repo, feel free to update this README and make any other initial changes to files, etc. Then go ahead and do your usual `git` steps -- add, commit, and push.
+1. Javascript
+2. Html
+3. Css
+4. Netlify
+5. Heroku
+6. MongoDB
+7. Formsfree.com
+8. JustinMind
+9. Insomnia
 
-**Note:** This is a template repository, no need to 'fork it.
+These applications helped shaped my coding career and really look forward to continue on this path to become a coder and UX/UI designer one day.
+
+**This is only the beginning as I plan to keep improving learning different languages and technologies in this world of computers.**

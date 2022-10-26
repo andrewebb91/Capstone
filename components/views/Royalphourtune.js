@@ -73,15 +73,15 @@ export default (st) => html`
         </div>
       </section>
     </div>
-    <div></div>
-    <table id="shirts">
+    <div id="shirts" >
+    <table id="table">
     <tr>
-      <th class="tablefont">Size</th>
-      <th class="tablefont">Design</th>
-      <th class="tablefont">Customer</th>
+      <th class="tableheader">Size</th>
+      <th class="tableheader">Design</th>
+      <th class="tableheader">Customer</th>
 
     </tr>
-    <div id="data">
+
     ${st.tableData
       .map((top) => {
         return `<tr><td>${top.size}</td><td>${top.design}</td><td>${top.customer}</td></tr>`;
@@ -89,7 +89,7 @@ export default (st) => html`
       .join("")}
       </div>
   </table>
-
+  </div>
 
   </section>
 `;
