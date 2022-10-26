@@ -18,8 +18,16 @@ footer {
 body {
   background-color: goldenrod;
 }
-.class:hover {
+nav > ul > li:hover {
   outline: gray;
+}
+
+nav > ul a {
+  font-family: fantasy;
+  color: black;
+}
+nav > ul a:link,
+a:visited {
 }
 p {
   text-align: center;
@@ -44,6 +52,8 @@ img {
   font-size: 36px;
   font-family: Impact;
   font-style: italic;
+}
+.slideImage {
 }
 
 h1 {
@@ -145,7 +155,7 @@ li {
   width: 35vw;
   padding-bottom: 2vh;
 }
-.fas_fa-bars:hover {
+nav > .fas_fa-bars:hover {
   outline: gray;
 }
 .pp2 {
