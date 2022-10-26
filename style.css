@@ -233,6 +233,7 @@ nav > .fas_fa-bars:hover {
 
 #table {
   width: 85vw;
+  padding-bottom: 2px;
 }
 th,
 td {
